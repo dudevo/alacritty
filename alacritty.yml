@@ -1,0 +1,74 @@
+window:
+   dimensions:
+     columns: 340
+     lines: 100
+   opacity: 0.9
+  
+font:
+  size: 15.0
+  normal:
+    family: DroidSansMono Nerd Font
+    style: Regular
+
+  bold:
+    family: DroidSansMono Nerd Font
+    style: Bold
+
+  italic:
+    family: DroidSansMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: DroidSansMono Nerd Font
+    style: Bold Italic
+
+  
+colors:
+  # Default colors
+    primary:
+      background: '0x000000'
+      foreground: '0xeaeaea'
+    cursor:
+    # If this is `false` the text cursor inverses
+    # the foreground and background colors.
+      custom_colors: false
+    # Text color when the cursor is above a character.
+    # Only used when `custom_colors` is `true`.
+      text: '0x000000'
+    # Cursor color.
+    # Only used when `custom_colors` is `true`.
+      cursor: '0xffffff'
+  # Normal colors
+    normal:
+      black:   '0x000000'
+      red:     '0xd54e53'
+      green:   '0xb9ca4a'
+      blue:    '0x7aa6da'
+      magenta: '0xc397d8'
+      yellow:  '0xe6c547'
+      cyan:    '0x70c0ba'
+      white:   '0xffffff'
+  # Bright colors
+    bright:
+      black:   '0x666666'
+      red:     '0xff3334'
+      green:   '0x9ec400'
+      yellow:  '0xe7c547'
+      blue:    '0x7aa6da'
+      magenta: '0xb77ee0'
+      cyan:    '0x54ced6'
+      white:   '0xffffff'
+  # Dim colors (Optional)
+    dim:
+      black:   '0x333333'
+      red:     '0xf2777a'
+      green:   '0x99cc99'
+      yellow:  '0xffcc66'
+      blue:    '0x6699cc'
+      cyan:    '0x66cccc'
+      magenta: '0xcc99cc'
+      white:   '0xdddddd'
+
+
+env:
+  TERM: xterm-256color
